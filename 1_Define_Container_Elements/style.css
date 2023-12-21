@@ -2,8 +2,8 @@
 /*4 by 4 grid*/
 .grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     height: 100vh;
     background-color: beige;
     gap: 10px;
